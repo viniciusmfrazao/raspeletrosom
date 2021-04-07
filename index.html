@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="img/logoeletrosom.jpg">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eletrosom</title>
+  <meta name="description" content="Caça aos Ovos Digital - Eletrosom">
+  <meta name="keywords" content="Caça aos Ovos Digital - Eletrosom">
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+  <script src="js/scratch-card.js"></script>
+  <script src="js/buscarImagens.js"></script>
+<link rel="stylesheet" href="css/scratch-card.css">
+
+
+ 
+  <!-- =======================================================
+    
+  ======================================================= -->
+</head>
+<body style="background-image: url(img/back1.jpeg);">
+  <h1 style="color: #FFF; text-shadow: black 0.1em 0.1em 0.2em; text-align: center; "><i>Caça aos Ovos</i></h1>
+  <center><img src="img/logoft.png" width="200px" /></center>
+
+
+<div > 
+	<div id="js-container">
+		<canvas id="js-canvas"></canvas>
+		<div class="discount">
+		  <img id="discountIMG">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<script>
+
+valorrandomico = buscarrandomico(2,8);
+
+scratchCard("img/1.jpg","img/" + parseInt(valorrandomico) + ".png") ;
+</script>
+
+</html>
